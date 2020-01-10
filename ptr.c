@@ -17,6 +17,10 @@ int main() {
   ptr=&arr[2];
   val=*++ptr;
   printf("val=%d,*ptr=%d,ptr=%p\n",val,*ptr,ptr);
+  
+  ptr=&arr[2];
+  val=++*ptr;
+  printf("val=%d,*ptr=%d,ptr=%p\n",val,*ptr,ptr);
       
   return 0;
 }
